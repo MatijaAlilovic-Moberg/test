@@ -15,11 +15,17 @@ const BackButton = ({ slice }) => (
         <style jsx>{`
             button {
                 text-align: center;
-                background-color: red;
+                background-color: sliver;
+                padding: 10px 20px;
+                transition: all 0.15s;
+                .richtext {
+                    color: black;
+                }
             }
 
             button:hover {
-                background-color: blue;
+                background-color: #444444;
+                color: white;
             }
         `}</style>
     </button>
