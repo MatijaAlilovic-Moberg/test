@@ -1,6 +1,84 @@
 {
   "slices": {
     "components": {
+      "back_button": {
+        "library": "slices",
+        "id": "back_button",
+        "name": "BackButton",
+        "description": "BackButton",
+        "model": {
+          "id": "back_button",
+          "type": "SharedSlice",
+          "name": "BackButton",
+          "description": "BackButton",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BackButton",
+              "primary": {
+                "buttonText": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "href": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Href",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "back_button",
+            "items": [],
+            "primary": {
+              "buttonText": [
+                {
+                  "type": "paragraph",
+                  "text": "Officia quis amet amet ipsum irure culpa. Minim veniam minim labore veniam eu id eu ad deserunt cupidatat. Sint occaecat cillum sunt mollit ipsum occaecat.",
+                  "spans": []
+                }
+              ],
+              "href": [
+                {
+                  "type": "paragraph",
+                  "text": "Reprehenderit ipsum consectetur id esse officia eiusmod sunt sunt aliqua consectetur labore. Pariatur tempor id quis sint minim reprehenderit exercitation irure laborum anim esse labore ea.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\User\\Desktop\\tutorials\\next + prismic\\nextjs-starter-prismic-blog\\nextjs-starter-prismic-blog\\.slicemachine\\assets\\slices\\BackButton\\default\\preview.png",
+            "width": 800,
+            "height": 48
+          }
+        }
+      },
       "contact_form": {
         "library": "slices",
         "id": "contact_form",
@@ -39,7 +117,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-blog/.slicemachine/assets/slices/ContactForm/default/preview.png",
+            "path": "C:\\Users\\User\\Desktop\\tutorials\\next + prismic\\nextjs-starter-prismic-blog\\nextjs-starter-prismic-blog\\.slicemachine\\assets\\slices\\ContactForm\\default\\preview.png",
             "width": 800,
             "height": 517
           }
@@ -170,12 +248,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-blog/.slicemachine/assets/slices/Image/default/preview.png",
+            "path": "C:\\Users\\User\\Desktop\\tutorials\\next + prismic\\nextjs-starter-prismic-blog\\nextjs-starter-prismic-blog\\.slicemachine\\assets\\slices\\Image\\default\\preview.png",
             "width": 800,
             "height": 586
           },
           "wide": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-blog/.slicemachine/assets/slices/Image/wide/preview.png",
+            "path": "C:\\Users\\User\\Desktop\\tutorials\\next + prismic\\nextjs-starter-prismic-blog\\nextjs-starter-prismic-blog\\.slicemachine\\assets\\slices\\Image\\wide\\preview.png",
             "width": 800,
             "height": 538
           }
@@ -245,7 +323,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-blog/.slicemachine/assets/slices/Quote/default/preview.png",
+            "path": "C:\\Users\\User\\Desktop\\tutorials\\next + prismic\\nextjs-starter-prismic-blog\\nextjs-starter-prismic-blog\\.slicemachine\\assets\\slices\\Quote\\default\\preview.png",
             "width": 800,
             "height": 178
           }
@@ -322,7 +400,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-blog/.slicemachine/assets/slices/Text/default/preview.png",
+            "path": "C:\\Users\\User\\Desktop\\tutorials\\next + prismic\\nextjs-starter-prismic-blog\\nextjs-starter-prismic-blog\\.slicemachine\\assets\\slices\\Text\\default\\preview.png",
             "width": 800,
             "height": 489
           }
