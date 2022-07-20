@@ -45,7 +45,7 @@ const Article = ({ article }) => {
     const date = prismicH.asDate(
         article.data.publishDate || article.first_publication_date
     );
-    const excerpt = getExcerpt(article.data.slices);
+    const except = getExcerpt(article.data.slices);
 
     return (
         <li className="grid grid-cols-1 items-start gap-6 md:grid-cols-3 md:gap-8">
@@ -69,16 +69,15 @@ const Article = ({ article }) => {
                 <p className="font-serif italic tracking-tighter text-slate-500">
                     {dateFormatter.format(date)}
                 </p>
-                {excerpt && (
+                {except && (
                     <p className="font-serif leading-relaxed md:text-lg md:leading-relaxed">
-                        {excerpt}
+                        {except}
                     </p>
                 )}
             </div>
         </li>
     );
 };
-//sjdsikjd
 const Index = ({ articles, navigation, settings }) => {
     return (
         <Layout
