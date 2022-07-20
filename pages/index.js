@@ -78,7 +78,7 @@ const Article = ({ article }) => {
         </li>
     );
 };
-
+//sjdsikjd
 const Index = ({ articles, navigation, settings }) => {
     return (
         <Layout
